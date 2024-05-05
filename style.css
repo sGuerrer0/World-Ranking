@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 400;
+    color: #6C727F;
+}
+
+body {
+    background-color: #1B1D1F;
+}
+
+.img-logo-background {
+    background-color: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -35px -35px 0 0;
+}
+
+.container {
+    margin-top: -2rem;
+}
+
+.border-g{
+    border: 1px solid #282B30;
+}
+
+.btn-p-m{
+    padding: 9px;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 10px 10px 0;
+    border-radius: 15px;
+    border: none;
+}
+
+.bg-color-g {
+    background-color: #1B1D1F;
+}
+
+.bg-color-g-1 {
+    background-color: #282B30 !important;
+}
+
+.input-container {
+    width: 350px;
+}
+
+.input-label-svg {
+    position: relative;
+}
+
+.input-label-svg::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 0;
+    bottom: 0;
+    width: 20px;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='25' height='25' viewBox='0 0 25 25' fill-rule='evenodd'%3E%3Cpath d='M16.036 18.455l2.404-2.405 5.586 5.587-2.404 2.404zM8.5 2C12.1 2 15 4.9 15 8.5S12.1 15 8.5 15 2 12.1 2 8.5 4.9 2 8.5 2zm0-2C3.8 0 0 3.8 0 8.5S3.8 17 8.5 17 17 13.2 17 8.5 13.2 0 8.5 0zM15 16a1 1 0 1 1 2 0 1 1 0 1 1-2 0'%3E%3C/path%3E%3C/svg%3E") center / contain no-repeat;
+}
+
+.input-style, .input-style:focus {
+    border: #6C727F;
+    color: #6C727F;
+    background-color: #282B30;
+    width: 100%;
+    padding: 0.55rem;
+    border-radius: 15px;
+    outline: none;
+}
+
+.input-style::placeholder {
+    color: #6C727F;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.select-style {
+    padding: 0.5rem;
+    border: 2px solid #282B30;
+    border-radius: 10px;
+    outline: none;
+}
+
+.table-container {
+    height: 600px;
+    overflow: auto;
+    scrollbar-color: #6C727F #282B30;
+}
+
+.table-container thead th {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #1B1D1F;
+}
+
+.padd-right {
+    padding-right: 0.5rem;
+}
+
+.tr-hov:hover {
+    background-color: #393a3d;
+}
+
+.lb-style{
+    font-size: 14px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.color-w{
+    color: #D2D5DA;
+}
+
+hr{
+    color: #6C727F;
+
+}
+
+.check_style {
+    height: 22px;
+    width: 22px;
+    margin-right: 0.5rem;
+}
+
+.center-div-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-div{
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+}
+
+.card_countries{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.div-detail-PA{
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+.f-size-14{
+    font-size: 14px;
+    font-weight: 500;
+}
